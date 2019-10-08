@@ -9,6 +9,8 @@
     $house3 = new House("fun color", true);
     $jurmalaHouse = new LuxuryHouse("pink", true);
     $jurmalaHouse->launchHeli();
+    //we can access class constants from outside using :: syntax
+    echo House::GREETING;
     // echo "<hr>";
     // //we can access public properties with -> 
     // echo "My house " . $myhouse->getColor();
